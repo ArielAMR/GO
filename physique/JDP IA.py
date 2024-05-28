@@ -23,13 +23,13 @@ def find_max_angle(V0, H, D):
     return max_angle
 
 # Exemple d'utilisation
-V0 = 20  # vitesse initiale en m/s
+V0 = 18.6  # vitesse initiale en m/s
 H = 1  # hauteur initiale en m
-D = 30  # distance en m
+D = 14  # distance en m
 
 min_angle = find_min_angle(V0, H, D)
 max_angle = find_max_angle(V0, H, D)
 
 
-print(f"Angle minimum: {min_angle} degrés")
-print(f"Angle maximum: {max_angle} degrés")
+print(f"Angle minimum: {math.radians(min_angle)} degrés")
+print(f"Angle maximum: {math.radians(max_angle)} degrés")
