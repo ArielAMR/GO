@@ -38,4 +38,4 @@ def calculateur_teta(V0, D, H):
 
     return str(teta_min), str(teta_max), str(math.degrees(teta_min)), str(math.degrees(teta_max))
 
-print(calculateur_teta(18.6, 28, 0.8))
+print(calculateur_teta(18.6, 28, 1))
